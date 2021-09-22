@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background-color: #222;
+    font-family: 'Work  Sans', sans-serif;
+    font-weight: 300;
+}
+ header{
+     font-size: 50px;
+     color: #f0fff0;
+     background: #55d6aa;
+     display: flex;
+     justify-content: center;
+ }
+header::after{
+content: '';
+display: table;
+clear: both;
+}
+ nav{
+     float: right;
+ }
+ nav ul{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+ nav li {
+     display: inline-block;
+     font-size: 20px;
+     margin-right: 120px;
+     margin-top: 25px;
+     padding-top: 0px;
+     
+     box-shadow: 1px #aaaaaa;
+ }
+
+
+
+
+ nav a{
+
+color: whitesmoke;
+text-decoration: none;
+text-transform: uppercase;
+ }
+ nav a:hover{
+     color: #000;
+ }
