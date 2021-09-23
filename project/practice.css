@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     background-color: #222;
@@ -15,6 +16,23 @@ header::after{
 content: '';
 display: table;
 clear: both;
+}
+form{
+    float: right;
+    margin-left: 900px;
+}
+td{
+    font-size: small;
+}
+input[type=submit]{
+    background-color: #aaaaaa;
+    padding: 5px 15px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-weight: bolder;
+}
+input[type=submit]:hover{
+    background: aliceblue;
 }
  nav{
      float: right;
@@ -46,3 +64,6 @@ text-transform: uppercase;
  nav a:hover{
      color: #000;
  }
+a{
+    text-decoration: none;
+}
