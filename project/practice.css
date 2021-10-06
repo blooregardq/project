@@ -1,0 +1,46 @@
+body {
+    background-color: #222;
+    font-family: 'Work  Sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+ header{
+     font-size: 50px;
+     color: #f0fff0;
+     background: rgba(230, 227, 233, 0.8);;
+     display: flex;
+     justify-content: space-around;
+    
+ }
+
+td{
+    font-size: 14px;
+}
+
+input[type=submit]:hover{
+    background: aliceblue;
+}
+ 
+ nav li {
+     display: inline-block;
+    margin: 15px;
+    font-size: 20px;
+    overflow: hidden;
+    
+
+ 
+ }
+
+
+ nav a{
+
+color: whitesmoke;
+text-decoration: none;
+text-transform: uppercase;
+ }
+ nav a:hover{
+     color: #000;
+ }
+a{
+    text-decoration: none;
+}

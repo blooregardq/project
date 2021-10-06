@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\Anezio Fuhr\repos\project\register.css">
+    <title>Registration</title>
+</head>
+
+<body>
+
+    <header ><span><a href="practice.html">Bob's Burniture</a></span></header>
+  <div class="login-page">
+      <div class="form">
+        <form class="register-form"><input type="text" placeholder="user name">
+            <input type="text" placeholder="password">
+            <input type="text" placeholder="email id">
+            <button>Create</button>
+            <p class="message">Already registered?<a href='#'>Login</a></p> 
+        </form>
+        
+         
+          <form class="login-form">
+              <input type="text" placeholder="user name"/>
+              <input type="text" placeholder="password"/>
+<button>login</button>
+<p class="message">Not Registered? <a href="#">Register</a></p>
+          </form>
+      </div>
+  </div>
+  <script src='https://code.jquery.com/jquery-3.2.1.min.js'>
+</script>
+  <script>
+      $('.message a').click(function(){
+          $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+      });
+  </script>
+</body>
+</html>
